@@ -4,6 +4,10 @@ date = "2011-05-08 12:39:43 +0000";
 familyName = Carme;
 featurePrefixes = (
 {
+code = "languagesystem latn dflt;";
+name = LanguageSystems;
+},
+{
 code = "lookup _kern__Horizontal_Kerning_in_Latin_lookup_0 {
     pos B <0 0 -74 0> Ydieresis <0 0 0 0>;
     pos B <0 0 -74 0> Ydieresis <0 0 0 0>;
@@ -6781,7 +6785,8 @@ name = _kern__Horizontal_Kerning_in_Latin_lookup_0;
 );
 features = (
 {
-code = "script latn;
+code = "# Automatic code start
+script latn;
 language dflt;
 lookup _kern__Horizontal_Kerning_in_Latin_lookup_0;";
 tag = kern;
@@ -6789,7 +6794,41 @@ tag = kern;
 );
 fontMaster = (
 {
-id = default;
+customParameters = (
+{
+name = typoAscender;
+value = 1946;
+},
+{
+name = typoDescender;
+value = -513;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1946;
+},
+{
+name = winDescent;
+value = 513;
+},
+{
+name = hheaAscender;
+value = 1946;
+},
+{
+name = hheaDescender;
+value = -513;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+id = "3a73632c-aa1e-4982-999c-60287057b92f";
 metricValues = (
 {
 },
@@ -6803,29 +6842,7 @@ pos = 102;
 pos = 1536;
 },
 {
-pos = 512;
-},
-{
-},
-{
-pos = 1946;
-},
-{
-pos = -513;
-},
-{
-},
-{
-pos = 1946;
-},
-{
-pos = 513;
-},
-{
-pos = 1946;
-},
-{
-pos = -513;
+pos = -512;
 },
 {
 pos = 1434;
@@ -6856,6 +6873,7 @@ pos = 102;
 pos = 512;
 }
 );
+name = Regular;
 visible = 1;
 }
 );
@@ -6864,40 +6882,40 @@ glyphs = (
 glyphname = .notdef;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 819;
 }
 );
 },
 {
-category = Base;
+category = Letter;
 glyphname = .null;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 0;
 }
 );
 },
 {
-category = Base;
+category = Letter;
 glyphname = nonmarkingreturn;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 682;
 }
 );
 },
 {
-category = Base;
+category = Letter;
 glyphname = space;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 471;
 }
@@ -6905,11 +6923,11 @@ width = 471;
 unicode = 32;
 },
 {
-category = Base;
+category = Letter;
 glyphname = exclam;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -6937,11 +6955,11 @@ width = 614;
 unicode = 33;
 },
 {
-category = Base;
+category = Letter;
 glyphname = quotedbl;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -6969,11 +6987,11 @@ width = 983;
 unicode = 34;
 },
 {
-category = Base;
+category = Letter;
 glyphname = numbersign;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7025,11 +7043,11 @@ width = 1312;
 unicode = 35;
 },
 {
-category = Base;
+category = Letter;
 glyphname = dollar;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7114,11 +7132,11 @@ width = 954;
 unicode = 36;
 },
 {
-category = Base;
+category = Letter;
 glyphname = percent;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7221,11 +7239,11 @@ width = 1298;
 unicode = 37;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ampersand;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7310,11 +7328,11 @@ width = 1314;
 unicode = 38;
 },
 {
-category = Base;
+category = Letter;
 glyphname = quotesingle;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7333,11 +7351,11 @@ width = 583;
 unicode = 39;
 },
 {
-category = Base;
+category = Letter;
 glyphname = parenleft;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7362,11 +7380,11 @@ width = 606;
 unicode = 40;
 },
 {
-category = Base;
+category = Letter;
 glyphname = parenright;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7391,11 +7409,11 @@ width = 604;
 unicode = 41;
 },
 {
-category = Base;
+category = Letter;
 glyphname = asterisk;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7433,11 +7451,11 @@ width = 935;
 unicode = 42;
 },
 {
-category = Base;
+category = Letter;
 glyphname = plus;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7464,11 +7482,11 @@ width = 892;
 unicode = 43;
 },
 {
-category = Base;
+category = Letter;
 glyphname = comma;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7487,11 +7505,11 @@ width = 583;
 unicode = 44;
 },
 {
-category = Base;
+category = Letter;
 glyphname = hyphen;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7510,11 +7528,11 @@ width = 774;
 unicode = 45;
 },
 {
-category = Base;
+category = Letter;
 glyphname = period;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7533,11 +7551,11 @@ width = 583;
 unicode = 46;
 },
 {
-category = Base;
+category = Letter;
 glyphname = slash;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7556,11 +7574,11 @@ width = 571;
 unicode = 47;
 },
 {
-category = Base;
+category = Letter;
 glyphname = zero;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7612,11 +7630,11 @@ width = 1269;
 unicode = 48;
 },
 {
-category = Base;
+category = Letter;
 glyphname = one;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7637,11 +7655,11 @@ width = 1269;
 unicode = 49;
 },
 {
-category = Base;
+category = Letter;
 glyphname = two;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7683,11 +7701,11 @@ width = 1269;
 unicode = 50;
 },
 {
-category = Base;
+category = Letter;
 glyphname = three;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7753,11 +7771,11 @@ width = 1269;
 unicode = 51;
 },
 {
-category = Base;
+category = Letter;
 glyphname = four;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7791,11 +7809,11 @@ width = 1269;
 unicode = 52;
 },
 {
-category = Base;
+category = Letter;
 glyphname = five;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7842,11 +7860,11 @@ width = 1269;
 unicode = 53;
 },
 {
-category = Base;
+category = Letter;
 glyphname = six;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7915,11 +7933,11 @@ width = 1269;
 unicode = 54;
 },
 {
-category = Base;
+category = Letter;
 glyphname = seven;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -7940,11 +7958,11 @@ width = 1269;
 unicode = 55;
 },
 {
-category = Base;
+category = Letter;
 glyphname = eight;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8033,11 +8051,11 @@ width = 1269;
 unicode = 56;
 },
 {
-category = Base;
+category = Letter;
 glyphname = nine;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8106,11 +8124,11 @@ width = 1269;
 unicode = 57;
 },
 {
-category = Base;
+category = Letter;
 glyphname = colon;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8138,11 +8156,11 @@ width = 583;
 unicode = 58;
 },
 {
-category = Base;
+category = Letter;
 glyphname = semicolon;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8170,11 +8188,11 @@ width = 583;
 unicode = 59;
 },
 {
-category = Base;
+category = Letter;
 glyphname = less;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8196,11 +8214,11 @@ width = 1054;
 unicode = 60;
 },
 {
-category = Base;
+category = Letter;
 glyphname = equal;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8228,11 +8246,11 @@ width = 1101;
 unicode = 61;
 },
 {
-category = Base;
+category = Letter;
 glyphname = greater;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8254,11 +8272,11 @@ width = 1056;
 unicode = 62;
 },
 {
-category = Base;
+category = Letter;
 glyphname = question;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8322,11 +8340,11 @@ width = 983;
 unicode = 63;
 },
 {
-category = Base;
+category = Letter;
 glyphname = at;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8425,13 +8443,13 @@ width = 1624;
 unicode = 64;
 },
 {
-category = Base;
+category = Letter;
 glyphname = A;
 kernLeft = A.4;
 kernRight = A;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8462,11 +8480,11 @@ width = 1538;
 unicode = 65;
 },
 {
-category = Base;
+category = Letter;
 glyphname = B;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8532,13 +8550,13 @@ width = 1300;
 unicode = 66;
 },
 {
-category = Base;
+category = Letter;
 glyphname = C;
 kernLeft = C;
 kernRight = C.6;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8579,12 +8597,12 @@ width = 1413;
 unicode = 67;
 },
 {
-category = Base;
+category = Letter;
 glyphname = D;
 kernRight = D;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8638,13 +8656,13 @@ width = 1466;
 unicode = 68;
 },
 {
-category = Base;
+category = Letter;
 glyphname = E;
 kernLeft = E.5;
 kernRight = E;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8671,11 +8689,11 @@ width = 1177;
 unicode = 69;
 },
 {
-category = Base;
+category = Letter;
 glyphname = F;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8700,11 +8718,11 @@ width = 1085;
 unicode = 70;
 },
 {
-category = Base;
+category = Letter;
 glyphname = G;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8751,11 +8769,11 @@ width = 1488;
 unicode = 71;
 },
 {
-category = Base;
+category = Letter;
 glyphname = H;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8782,13 +8800,13 @@ width = 1437;
 unicode = 72;
 },
 {
-category = Base;
+category = Letter;
 glyphname = I;
 kernLeft = I.5;
 kernRight = I;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8807,11 +8825,11 @@ width = 536;
 unicode = 73;
 },
 {
-category = Base;
+category = Letter;
 glyphname = J;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8850,11 +8868,11 @@ width = 702;
 unicode = 74;
 },
 {
-category = Base;
+category = Letter;
 glyphname = K;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8881,11 +8899,11 @@ width = 1355;
 unicode = 75;
 },
 {
-category = Base;
+category = Letter;
 glyphname = L;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8906,11 +8924,11 @@ width = 1136;
 unicode = 76;
 },
 {
-category = Base;
+category = Letter;
 glyphname = M;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8938,13 +8956,13 @@ width = 1581;
 unicode = 77;
 },
 {
-category = Base;
+category = Letter;
 glyphname = N;
 kernLeft = N;
 kernRight = N.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -8969,13 +8987,13 @@ width = 1398;
 unicode = 78;
 },
 {
-category = Base;
+category = Letter;
 glyphname = O;
 kernLeft = O;
 kernRight = O.9;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9027,11 +9045,11 @@ width = 1740;
 unicode = 79;
 },
 {
-category = Base;
+category = Letter;
 glyphname = P;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9075,11 +9093,11 @@ width = 1290;
 unicode = 80;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Q;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9134,11 +9152,11 @@ width = 1638;
 unicode = 81;
 },
 {
-category = Base;
+category = Letter;
 glyphname = R;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9185,11 +9203,11 @@ width = 1228;
 unicode = 82;
 },
 {
-category = Base;
+category = Letter;
 glyphname = S;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9268,11 +9286,11 @@ width = 1101;
 unicode = 83;
 },
 {
-category = Base;
+category = Letter;
 glyphname = T;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9295,13 +9313,13 @@ width = 1085;
 unicode = 84;
 },
 {
-category = Base;
+category = Letter;
 glyphname = U;
 kernLeft = U;
 kernRight = U.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9358,11 +9376,11 @@ width = 1519;
 unicode = 85;
 },
 {
-category = Base;
+category = Letter;
 glyphname = V;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9384,11 +9402,11 @@ width = 1359;
 unicode = 86;
 },
 {
-category = Base;
+category = Letter;
 glyphname = W;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9416,11 +9434,11 @@ width = 2011;
 unicode = 87;
 },
 {
-category = Base;
+category = Letter;
 glyphname = X;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9447,13 +9465,13 @@ width = 1345;
 unicode = 88;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Y;
 kernLeft = Y;
 kernRight = Y.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9477,11 +9495,11 @@ width = 1292;
 unicode = 89;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Z;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9506,11 +9524,11 @@ width = 1218;
 unicode = 90;
 },
 {
-category = Base;
+category = Letter;
 glyphname = bracketleft;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9533,11 +9551,11 @@ width = 651;
 unicode = 91;
 },
 {
-category = Base;
+category = Letter;
 glyphname = backslash;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9556,11 +9574,11 @@ width = 571;
 unicode = 92;
 },
 {
-category = Base;
+category = Letter;
 glyphname = bracketright;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9583,11 +9601,11 @@ width = 651;
 unicode = 93;
 },
 {
-category = Base;
+category = Letter;
 glyphname = underscore;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9606,11 +9624,11 @@ width = 1331;
 unicode = 95;
 },
 {
-category = Base;
+category = Letter;
 glyphname = grave;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9629,13 +9647,13 @@ width = 610;
 unicode = 96;
 },
 {
-category = Base;
+category = Letter;
 glyphname = a;
 kernLeft = a.2;
 kernRight = a;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9700,11 +9718,11 @@ width = 1099;
 unicode = 97;
 },
 {
-category = Base;
+category = Letter;
 glyphname = b;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9754,13 +9772,13 @@ width = 1150;
 unicode = 98;
 },
 {
-category = Base;
+category = Letter;
 glyphname = c;
 kernLeft = c;
 kernRight = c.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9801,11 +9819,11 @@ width = 1028;
 unicode = 99;
 },
 {
-category = Base;
+category = Letter;
 glyphname = d;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9857,13 +9875,13 @@ width = 1153;
 unicode = 100;
 },
 {
-category = Base;
+category = Letter;
 glyphname = e;
 kernLeft = e.2;
 kernRight = e;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9916,12 +9934,12 @@ width = 1120;
 unicode = 101;
 },
 {
-category = Base;
+category = Letter;
 glyphname = f;
 kernLeft = f;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -9958,11 +9976,11 @@ width = 872;
 unicode = 102;
 },
 {
-category = Base;
+category = Letter;
 glyphname = g;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10028,11 +10046,11 @@ width = 1185;
 unicode = 103;
 },
 {
-category = Base;
+category = Letter;
 glyphname = h;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10065,13 +10083,13 @@ width = 1173;
 unicode = 104;
 },
 {
-category = Base;
+category = Letter;
 glyphname = i;
 kernLeft = i.2;
 kernRight = i;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10099,11 +10117,11 @@ width = 514;
 unicode = 105;
 },
 {
-category = Base;
+category = Letter;
 glyphname = j;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10139,11 +10157,11 @@ width = 581;
 unicode = 106;
 },
 {
-category = Base;
+category = Letter;
 glyphname = k;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10170,12 +10188,12 @@ width = 1124;
 unicode = 107;
 },
 {
-category = Base;
+category = Letter;
 glyphname = l;
 kernRight = l;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10194,11 +10212,11 @@ width = 501;
 unicode = 108;
 },
 {
-category = Base;
+category = Letter;
 glyphname = m;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10244,13 +10262,13 @@ width = 1585;
 unicode = 109;
 },
 {
-category = Base;
+category = Letter;
 glyphname = n;
 kernLeft = n;
 kernRight = n.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10283,13 +10301,13 @@ width = 1165;
 unicode = 110;
 },
 {
-category = Base;
+category = Letter;
 glyphname = o;
 kernLeft = o;
 kernRight = o.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10341,11 +10359,11 @@ width = 1304;
 unicode = 111;
 },
 {
-category = Base;
+category = Letter;
 glyphname = p;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10399,11 +10417,11 @@ width = 1163;
 unicode = 112;
 },
 {
-category = Base;
+category = Letter;
 glyphname = q;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10458,11 +10476,11 @@ width = 1173;
 unicode = 113;
 },
 {
-category = Base;
+category = Letter;
 glyphname = r;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10491,11 +10509,11 @@ width = 839;
 unicode = 114;
 },
 {
-category = Base;
+category = Letter;
 glyphname = s;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10574,11 +10592,11 @@ width = 1030;
 unicode = 115;
 },
 {
-category = Base;
+category = Letter;
 glyphname = t;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10615,13 +10633,13 @@ width = 823;
 unicode = 116;
 },
 {
-category = Base;
+category = Letter;
 glyphname = u;
 kernLeft = u;
 kernRight = u.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10658,11 +10676,11 @@ width = 1165;
 unicode = 117;
 },
 {
-category = Base;
+category = Letter;
 glyphname = v;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10684,11 +10702,11 @@ width = 1185;
 unicode = 118;
 },
 {
-category = Base;
+category = Letter;
 glyphname = w;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10716,11 +10734,11 @@ width = 1671;
 unicode = 119;
 },
 {
-category = Base;
+category = Letter;
 glyphname = x;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10747,13 +10765,13 @@ width = 1136;
 unicode = 120;
 },
 {
-category = Base;
+category = Letter;
 glyphname = y;
 kernLeft = y;
 kernRight = y.4;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10776,11 +10794,11 @@ width = 1142;
 unicode = 121;
 },
 {
-category = Base;
+category = Letter;
 glyphname = z;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10805,11 +10823,11 @@ width = 956;
 unicode = 122;
 },
 {
-category = Base;
+category = Letter;
 glyphname = braceleft;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10879,11 +10897,11 @@ width = 651;
 unicode = 123;
 },
 {
-category = Base;
+category = Letter;
 glyphname = bar;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10902,11 +10920,11 @@ width = 339;
 unicode = 124;
 },
 {
-category = Base;
+category = Letter;
 glyphname = braceright;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -10998,11 +11016,11 @@ width = 653;
 unicode = 125;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni00A0;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 471;
 }
@@ -11010,11 +11028,11 @@ width = 471;
 unicode = 160;
 },
 {
-category = Base;
+category = Letter;
 glyphname = exclamdown;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11042,13 +11060,13 @@ width = 614;
 unicode = 161;
 },
 {
-category = Base;
+category = Letter;
 glyphname = cent;
 kernLeft = c;
 kernRight = c.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11102,11 +11120,11 @@ width = 937;
 unicode = 162;
 },
 {
-category = Base;
+category = Letter;
 glyphname = dieresis;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11134,11 +11152,11 @@ width = 696;
 unicode = 168;
 },
 {
-category = Base;
+category = Letter;
 glyphname = copyright;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11221,11 +11239,11 @@ width = 1306;
 unicode = 169;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ordfeminine;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11278,11 +11296,11 @@ width = 452;
 unicode = 170;
 },
 {
-category = Base;
+category = Letter;
 glyphname = logicalnot;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11303,11 +11321,11 @@ width = 1122;
 unicode = 172;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni00AD;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11326,11 +11344,11 @@ width = 774;
 unicode = 173;
 },
 {
-category = Base;
+category = Letter;
 glyphname = registered;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11419,11 +11437,11 @@ width = 1294;
 unicode = 174;
 },
 {
-category = Base;
+category = Letter;
 glyphname = degree;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11475,11 +11493,11 @@ width = 552;
 unicode = 176;
 },
 {
-category = Base;
+category = Letter;
 glyphname = plusminus;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11515,11 +11533,11 @@ width = 915;
 unicode = 177;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni00B2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11561,11 +11579,11 @@ width = 491;
 unicode = 178;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni00B3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11619,11 +11637,11 @@ width = 483;
 unicode = 179;
 },
 {
-category = Base;
+category = Letter;
 glyphname = acute;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11642,11 +11660,11 @@ width = 657;
 unicode = 180;
 },
 {
-category = Base;
+category = Letter;
 glyphname = cedilla;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11679,11 +11697,11 @@ width = 563;
 unicode = 184;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni00B9;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11704,11 +11722,11 @@ width = 280;
 unicode = 185;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ordmasculine;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11760,11 +11778,11 @@ width = 1304;
 unicode = 186;
 },
 {
-category = Base;
+category = Letter;
 glyphname = onequarter;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11818,11 +11836,11 @@ width = 3719;
 unicode = 188;
 },
 {
-category = Base;
+category = Letter;
 glyphname = onehalf;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11884,11 +11902,11 @@ width = 3719;
 unicode = 189;
 },
 {
-category = Base;
+category = Letter;
 glyphname = threequarters;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -11987,11 +12005,11 @@ width = 3719;
 unicode = 190;
 },
 {
-category = Base;
+category = Letter;
 glyphname = questiondown;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12054,13 +12072,13 @@ width = 983;
 unicode = 191;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Agrave;
 kernLeft = A.4;
 kernRight = A;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12100,13 +12118,13 @@ width = 1538;
 unicode = 192;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Aacute;
 kernLeft = A.4;
 kernRight = A;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12146,13 +12164,13 @@ width = 1538;
 unicode = 193;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Acircumflex;
 kernLeft = A.4;
 kernRight = A;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12195,13 +12213,13 @@ width = 1538;
 unicode = 194;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Atilde;
 kernLeft = A.4;
 kernRight = A;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12262,13 +12280,13 @@ width = 1538;
 unicode = 195;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Adieresis;
 kernLeft = A.4;
 kernRight = A;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12317,13 +12335,13 @@ width = 1538;
 unicode = 196;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Aring;
 kernLeft = A.4;
 kernRight = A;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12396,13 +12414,13 @@ width = 1538;
 unicode = 197;
 },
 {
-category = Base;
+category = Letter;
 glyphname = AE;
 kernLeft = A.5;
 kernRight = E.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12441,13 +12459,13 @@ width = 1927;
 unicode = 198;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Ccedilla;
 kernLeft = C;
 kernRight = C.6;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12509,13 +12527,13 @@ width = 1310;
 unicode = 199;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Egrave;
 kernLeft = E.5;
 kernRight = E;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12551,13 +12569,13 @@ width = 1177;
 unicode = 200;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Eacute;
 kernLeft = E.5;
 kernRight = E;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12593,13 +12611,13 @@ width = 1177;
 unicode = 201;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Ecircumflex;
 kernLeft = E.5;
 kernRight = E;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12638,13 +12656,13 @@ width = 1177;
 unicode = 202;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Edieresis;
 kernLeft = E.5;
 kernRight = E;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12689,13 +12707,13 @@ width = 1177;
 unicode = 203;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Igrave;
 kernLeft = I.5;
 kernRight = I;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12723,13 +12741,13 @@ width = 548;
 unicode = 204;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Iacute;
 kernLeft = I.5;
 kernRight = I;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12757,13 +12775,13 @@ width = 548;
 unicode = 205;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Icircumflex;
 kernLeft = I.5;
 kernRight = I;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12794,13 +12812,13 @@ width = 1003;
 unicode = 206;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Idieresis;
 kernLeft = I.5;
 kernRight = I;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12837,12 +12855,12 @@ width = 548;
 unicode = 207;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Eth;
 kernRight = D;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12904,13 +12922,13 @@ width = 1466;
 unicode = 208;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Ntilde;
 kernLeft = N;
 kernRight = N.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -12965,13 +12983,13 @@ width = 1398;
 unicode = 209;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Ograve;
 kernLeft = O.2;
 kernRight = O.9;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13032,13 +13050,13 @@ width = 1740;
 unicode = 210;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Oacute;
 kernLeft = O.2;
 kernRight = O.9;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13099,13 +13117,13 @@ width = 1740;
 unicode = 211;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Ocircumflex;
 kernLeft = O.2;
 kernRight = O.9;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13169,13 +13187,13 @@ width = 1740;
 unicode = 212;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Otilde;
 kernLeft = O.2;
 kernRight = O.9;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13257,13 +13275,13 @@ width = 1740;
 unicode = 213;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Odieresis;
 kernLeft = O.2;
 kernRight = O.9;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13333,13 +13351,13 @@ width = 1740;
 unicode = 214;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Oslash;
 kernLeft = O.2;
 kernRight = O.9;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13403,13 +13421,13 @@ width = 1740;
 unicode = 216;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Ugrave;
 kernLeft = U;
 kernRight = U.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13475,13 +13493,13 @@ width = 1519;
 unicode = 217;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Uacute;
 kernLeft = U;
 kernRight = U.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13547,13 +13565,13 @@ width = 1519;
 unicode = 218;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Ucircumflex;
 kernLeft = U;
 kernRight = U.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13622,13 +13640,13 @@ width = 1519;
 unicode = 219;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Udieresis;
 kernLeft = U;
 kernRight = U.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13703,13 +13721,13 @@ width = 1519;
 unicode = 220;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Yacute;
 kernLeft = Y;
 kernRight = Y.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13742,11 +13760,11 @@ width = 1292;
 unicode = 221;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Thorn;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13792,13 +13810,13 @@ width = 1234;
 unicode = 222;
 },
 {
-category = Base;
+category = Letter;
 glyphname = agrave;
 kernLeft = a.2;
 kernRight = a;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13872,13 +13890,13 @@ width = 1099;
 unicode = 224;
 },
 {
-category = Base;
+category = Letter;
 glyphname = aacute;
 kernLeft = a.2;
 kernRight = a;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -13952,13 +13970,13 @@ width = 1099;
 unicode = 225;
 },
 {
-category = Base;
+category = Letter;
 glyphname = acircumflex;
 kernLeft = a.2;
 kernRight = a;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14035,13 +14053,13 @@ width = 1099;
 unicode = 226;
 },
 {
-category = Base;
+category = Letter;
 glyphname = atilde;
 kernLeft = a.2;
 kernRight = a;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14136,13 +14154,13 @@ width = 1099;
 unicode = 227;
 },
 {
-category = Base;
+category = Letter;
 glyphname = adieresis;
 kernLeft = a.2;
 kernRight = a;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14225,13 +14243,13 @@ width = 1099;
 unicode = 228;
 },
 {
-category = Base;
+category = Letter;
 glyphname = aring;
 kernLeft = a.2;
 kernRight = a;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14338,13 +14356,13 @@ width = 1099;
 unicode = 229;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ae;
 kernLeft = a.3;
 kernRight = e.7;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14441,13 +14459,13 @@ width = 1806;
 unicode = 230;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ccedilla;
 kernLeft = c;
 kernRight = c.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14508,13 +14526,13 @@ width = 937;
 unicode = 231;
 },
 {
-category = Base;
+category = Letter;
 glyphname = egrave;
 kernLeft = e.2;
 kernRight = e;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14576,13 +14594,13 @@ width = 1120;
 unicode = 232;
 },
 {
-category = Base;
+category = Letter;
 glyphname = eacute;
 kernLeft = e.2;
 kernRight = e;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14644,13 +14662,13 @@ width = 1120;
 unicode = 233;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ecircumflex;
 kernLeft = e.2;
 kernRight = e;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14715,13 +14733,13 @@ width = 1120;
 unicode = 234;
 },
 {
-category = Base;
+category = Letter;
 glyphname = edieresis;
 kernLeft = e.2;
 kernRight = e;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14792,13 +14810,13 @@ width = 1120;
 unicode = 235;
 },
 {
-category = Base;
+category = Letter;
 glyphname = igrave;
 kernLeft = i.2;
 kernRight = i;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14826,13 +14844,13 @@ width = 514;
 unicode = 236;
 },
 {
-category = Base;
+category = Letter;
 glyphname = iacute;
 kernLeft = i.2;
 kernRight = i;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14860,13 +14878,13 @@ width = 514;
 unicode = 237;
 },
 {
-category = Base;
+category = Letter;
 glyphname = icircumflex;
 kernLeft = i.2;
 kernRight = i;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14897,13 +14915,13 @@ width = 514;
 unicode = 238;
 },
 {
-category = Base;
+category = Letter;
 glyphname = idieresis;
 kernLeft = i.2;
 kernRight = i;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -14940,13 +14958,13 @@ width = 514;
 unicode = 239;
 },
 {
-category = Base;
+category = Letter;
 glyphname = eth;
 kernLeft = o;
 kernRight = o.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15012,13 +15030,13 @@ width = 1206;
 unicode = 240;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ntilde;
 kernLeft = n;
 kernRight = n.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15081,13 +15099,13 @@ width = 1015;
 unicode = 241;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ograve;
 kernLeft = o;
 kernRight = o.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15148,13 +15166,13 @@ width = 1193;
 unicode = 242;
 },
 {
-category = Base;
+category = Letter;
 glyphname = oacute;
 kernLeft = o;
 kernRight = o.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15215,13 +15233,13 @@ width = 1193;
 unicode = 243;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ocircumflex;
 kernLeft = o;
 kernRight = o.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15285,13 +15303,13 @@ width = 1304;
 unicode = 244;
 },
 {
-category = Base;
+category = Letter;
 glyphname = otilde;
 kernLeft = o;
 kernRight = o.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15373,13 +15391,13 @@ width = 1304;
 unicode = 245;
 },
 {
-category = Base;
+category = Letter;
 glyphname = odieresis;
 kernLeft = o;
 kernRight = o.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15449,13 +15467,13 @@ width = 1304;
 unicode = 246;
 },
 {
-category = Base;
+category = Letter;
 glyphname = oslash;
 kernLeft = o;
 kernRight = o.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15516,13 +15534,13 @@ width = 1304;
 unicode = 248;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ugrave;
 kernLeft = u;
 kernRight = u.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15568,13 +15586,13 @@ width = 1165;
 unicode = 249;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uacute;
 kernLeft = u;
 kernRight = u.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15620,13 +15638,13 @@ width = 1165;
 unicode = 250;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ucircumflex;
 kernLeft = u;
 kernRight = u.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15675,13 +15693,13 @@ width = 1165;
 unicode = 251;
 },
 {
-category = Base;
+category = Letter;
 glyphname = udieresis;
 kernLeft = u;
 kernRight = u.2;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15736,13 +15754,13 @@ width = 1165;
 unicode = 252;
 },
 {
-category = Base;
+category = Letter;
 glyphname = yacute;
 kernLeft = y;
 kernRight = y.4;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15774,11 +15792,11 @@ width = 1142;
 unicode = 253;
 },
 {
-category = Base;
+category = Letter;
 glyphname = thorn;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15824,13 +15842,13 @@ width = 989;
 unicode = 254;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ydieresis;
 kernLeft = y;
 kernRight = y.4;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15871,13 +15889,13 @@ width = 1142;
 unicode = 255;
 },
 {
-category = Base;
+category = Letter;
 glyphname = OE;
 kernLeft = O;
 kernRight = E.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -15941,13 +15959,13 @@ width = 2242;
 unicode = 338;
 },
 {
-category = Base;
+category = Letter;
 glyphname = oe;
 kernLeft = o.3;
 kernRight = e.7;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16045,13 +16063,13 @@ width = 1916;
 unicode = 339;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Ydieresis;
 kernLeft = Y;
 kernRight = Y.3;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16093,11 +16111,11 @@ width = 1292;
 unicode = 376;
 },
 {
-category = Base;
+category = Letter;
 glyphname = circumflex;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16119,11 +16137,11 @@ width = 856;
 unicode = 710;
 },
 {
-category = Base;
+category = Letter;
 glyphname = tilde;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16163,11 +16181,11 @@ width = 702;
 unicode = 732;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2000;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 972;
 }
@@ -16175,11 +16193,11 @@ width = 972;
 unicode = 8192;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2001;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 1945;
 }
@@ -16187,11 +16205,11 @@ width = 1945;
 unicode = 8193;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2002;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 972;
 }
@@ -16199,11 +16217,11 @@ width = 972;
 unicode = 8194;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2003;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 1945;
 }
@@ -16211,11 +16229,11 @@ width = 1945;
 unicode = 8195;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2004;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 647;
 }
@@ -16223,11 +16241,11 @@ width = 647;
 unicode = 8196;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2005;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 485;
 }
@@ -16235,11 +16253,11 @@ width = 485;
 unicode = 8197;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2006;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 323;
 }
@@ -16247,11 +16265,11 @@ width = 323;
 unicode = 8198;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2007;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 323;
 }
@@ -16259,11 +16277,11 @@ width = 323;
 unicode = 8199;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2008;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 241;
 }
@@ -16271,11 +16289,11 @@ width = 241;
 unicode = 8200;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2009;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 389;
 }
@@ -16283,11 +16301,11 @@ width = 389;
 unicode = 8201;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni200A;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 106;
 }
@@ -16295,11 +16313,11 @@ width = 106;
 unicode = 8202;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2010;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16318,11 +16336,11 @@ width = 774;
 unicode = 8208;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni2011;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16341,11 +16359,11 @@ width = 774;
 unicode = 8209;
 },
 {
-category = Base;
+category = Letter;
 glyphname = figuredash;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16364,11 +16382,11 @@ width = 774;
 unicode = 8210;
 },
 {
-category = Base;
+category = Letter;
 glyphname = endash;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16387,11 +16405,11 @@ width = 1210;
 unicode = 8211;
 },
 {
-category = Base;
+category = Letter;
 glyphname = emdash;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16410,11 +16428,11 @@ width = 1564;
 unicode = 8212;
 },
 {
-category = Base;
+category = Letter;
 glyphname = quoteleft;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16433,11 +16451,11 @@ width = 296;
 unicode = 8216;
 },
 {
-category = Base;
+category = Letter;
 glyphname = quoteright;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16456,11 +16474,11 @@ width = 299;
 unicode = 8217;
 },
 {
-category = Base;
+category = Letter;
 glyphname = quotedblleft;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16488,11 +16506,11 @@ width = 616;
 unicode = 8220;
 },
 {
-category = Base;
+category = Letter;
 glyphname = quotedblright;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16520,11 +16538,11 @@ width = 616;
 unicode = 8221;
 },
 {
-category = Base;
+category = Letter;
 glyphname = bullet;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16555,11 +16573,11 @@ width = 716;
 unicode = 8226;
 },
 {
-category = Base;
+category = Letter;
 glyphname = ellipsis;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16596,11 +16614,11 @@ width = 1751;
 unicode = 8230;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni202F;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 389;
 }
@@ -16608,11 +16626,11 @@ width = 389;
 unicode = 8239;
 },
 {
-category = Base;
+category = Letter;
 glyphname = guilsinglleft;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16634,11 +16652,11 @@ width = 1054;
 unicode = 8249;
 },
 {
-category = Base;
+category = Letter;
 glyphname = guilsinglright;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16660,11 +16678,11 @@ width = 1056;
 unicode = 8250;
 },
 {
-category = Base;
+category = Letter;
 glyphname = fraction;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16683,11 +16701,11 @@ width = 1179;
 unicode = 8260;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uni205F;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 width = 485;
 }
@@ -16695,11 +16713,11 @@ width = 485;
 unicode = 8287;
 },
 {
-category = Base;
+category = Letter;
 glyphname = Euro;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16758,11 +16776,11 @@ width = 1433;
 unicode = 8364;
 },
 {
-category = Base;
+category = Letter;
 glyphname = trademark;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16803,11 +16821,11 @@ width = 2666;
 unicode = 8482;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uniE000;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16826,11 +16844,11 @@ width = 1025;
 unicode = 57344;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uniFB01;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16878,11 +16896,11 @@ width = 1069;
 unicode = 64257;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uniFB02;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -16921,11 +16939,11 @@ width = 1081;
 unicode = 64258;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uniFB03;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -17007,11 +17025,11 @@ width = 2258;
 unicode = 64259;
 },
 {
-category = Base;
+category = Letter;
 glyphname = uniFB04;
 layers = (
 {
-layerId = default;
+layerId = "3a73632c-aa1e-4982-999c-60287057b92f";
 name = Fore;
 shapes = (
 {
@@ -17084,8 +17102,13 @@ width = 2246;
 unicode = 64260;
 }
 );
+instances = (
+{
+name = Regular;
+}
+);
 kerningLTR = {
-default = {
+"3a73632c-aa1e-4982-999c-60287057b92f" = {
 "@MMK_L_A" = {
 "@MMK_R_C" = -135;
 "@MMK_R_O" = -135;
@@ -20501,30 +20524,6 @@ type = ascender;
 type = descender;
 },
 {
-name = hheaLineGap;
-},
-{
-name = typoAscender;
-},
-{
-name = typoDescender;
-},
-{
-name = typoLineGap;
-},
-{
-name = winAscent;
-},
-{
-name = winDescent;
-},
-{
-name = hheaAscender;
-},
-{
-name = hheaDescender;
-},
-{
 name = subscriptXSize;
 },
 {
@@ -20569,9 +20568,10 @@ value = "Copyright (c) 2010-2011, Ruben Prol (ipanemagrafica@gmail.com|www.ipane
 key = licenses;
 values = (
 {
-language = "en-US";
+language = ENG;
 value = "Copyright (c) 2010-2011, Rubn Prol (ipanemagrafica@gmail.com|www.ipanemagrafica.com), 
- with Reserved Font Name Carme.  
+ with Reserved Font Name Carme. 
+ 
  
 This Font Software is licensed under the SIL Open Font License, Version 1.1. 
  This license is available with a FAQ at: http://scripts.sil.org/OFL";
